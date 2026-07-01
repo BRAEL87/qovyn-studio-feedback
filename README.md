@@ -1,6 +1,6 @@
 # 🌌 Qovyn Studio — Premium Agentic IDE
 
-[![Version](https://img.shields.io/badge/version-2.1.0-blue.svg)](https://qovyn-studio.vercel.app)
+[![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)](https://qovyn-studio.vercel.app)
 [![Status](https://img.shields.io/badge/status-active-success.svg)](https://qovyn-studio.vercel.app)
 [![License](https://img.shields.io/badge/license-proprietary-red.svg)](https://qovyn-studio.vercel.app/terms)
 
@@ -12,7 +12,6 @@
 
 Qovyn Studio is built for developers who demand peak productivity. It goes beyond autocomplete to offer a full-cycle development experience.
 
-*   **🎙️ Native Voice Input (STT)**: Prompt your IDE hands-free with high-fidelity Speech-to-Text.
 *   **🔄 Autonomous Agent Loops**: Agents can plan, execute, and self-critique complex multi-file changes.
 *   **🐙 Deep GitHub Integration**: Build, commit, list issues, and open Pull Requests directly from the agent interface.
 *   **⚡ Free Frontier Models**: Powered by **Puter.js**, providing access to high-end models without subscription friction.
@@ -27,7 +26,7 @@ Qovyn Studio is currently in **Early Access**.
 1.  **Download**: Get the latest build for your OS from the [Official Website](https://qovyn-studio.vercel.app).
 2.  **Install**: 
     *   **Windows**: Run the `.exe`. Note: As an indie project, you may see a "SmartScreen" warning. Click *More Info* -> *Run Anyway*.
-    *   **macOS**: Open the `.dmg` and move to Applications. (Check *Security & Privacy* to permit the first run).
+    *   **macOS and linbux**: coming soon.
 3.  **Connect**: Link your GitHub account to enable autonomous PR workflows.
 
 ---

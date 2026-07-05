@@ -19,13 +19,13 @@ Qovyn Studio is built for developers who demand peak productivity. It goes beyon
 
 ---
 
-## 💰 Why Qovyn beats \$20/month subscriptions
+## 💰 Why Qovyn beats $20/month subscriptions
 
-The market is flooded with \$20/month AI coding tools. Qovyn Studio gives you more for less — or for free.
+The market is flooded with $20/month AI coding tools. Qovyn Studio gives you more for less — or for free.
 
 | Feature | Qovyn Studio | Claude Code / Codex |
 |---|---|---|
-| **Pricing** | Free tier available — \$0 to start | \$20/month minimum |
+| **Pricing** | Free tier available — $0 to start | $20/month minimum |
 | **Models** | Bring your own API key or use free Puter.js models | Locked to their model |
 | **Provider fallback** | 18 providers in an automatic fallback chain — if one fails, the next takes over | Single provider, single point of failure |
 | **Agent loop** | Autonomous plan → execute → verify cycle with self-correction | Basic chat with file read/write |
@@ -97,7 +97,7 @@ Open the app, switch to **Agent mode**, and try:
 Create a responsive navbar component with HTML, CSS, and a dark mode toggle
 ```
 
-Watch the agent plan the files, create them one by one, verify each step, and report back. No \$20 subscription required.
+Watch the agent plan the files, create them one by one, verify each step, and report back. No $20 subscription required.
 
 ---
 

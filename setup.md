@@ -14,7 +14,7 @@
 2. Click the **Settings** button in the bottom-left corner.
 3. Navigate to the **AI Providers** tab.
 4. Each provider has a **"Get key"** link to obtain an API key.
-5. Add a model ID for each provider to enable model selection.
+
 
 ### Recommended Providers
 

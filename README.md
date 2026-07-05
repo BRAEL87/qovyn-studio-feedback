@@ -19,13 +19,13 @@ Qovyn Studio is built for developers who demand peak productivity. It goes beyon
 
 ---
 
-## 💰 Why Qovyn beats $20/month subscriptions
+## 💰 Why Qovyn beats \$20/month subscriptions
 
-The market is flooded with $20/month AI coding tools. Qovyn Studio gives you more for less — or for free.
+The market is flooded with \$20/month AI coding tools. Qovyn Studio gives you more for less — or for free.
 
 | Feature | Qovyn Studio | Claude Code / Codex |
 |---|---|---|
-| **Pricing** | Free tier available — $0 to start | $20/month minimum |
+| **Pricing** | Free tier available — \$0 to start | \$20/month minimum |
 | **Models** | Bring your own API key or use free Puter.js models | Locked to their model |
 | **Provider fallback** | 18 providers in an automatic fallback chain — if one fails, the next takes over | Single provider, single point of failure |
 | **Agent loop** | Autonomous plan → execute → verify cycle with self-correction | Basic chat with file read/write |
@@ -97,7 +97,7 @@ Open the app, switch to **Agent mode**, and try:
 Create a responsive navbar component with HTML, CSS, and a dark mode toggle
 ```
 
-Watch the agent plan the files, create them one by one, verify each step, and report back. No $20 subscription required.
+Watch the agent plan the files, create them one by one, verify each step, and report back. No \$20 subscription required.
 
 ---
 
@@ -131,3 +131,141 @@ Qovyn Studio is designed with a **Privacy-First** architecture:
 ---
 
 *Built with ❤️ by the Qovyn Studio Team.*
+
+---
+
+<a id="francais"></a>
+
+# 🌌 Qovyn Studio — IDE Agentique Premium
+
+[![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)](https://qovyn-studio.vercel.app)
+[![Statut](https://img.shields.io/badge/statut-actif-success.svg)](https://qovyn-studio.vercel.app)
+[![Licence](https://img.shields.io/badge/licence-propriétaire-red.svg)](https://qovyn-studio.vercel.app/terms)
+
+> **Qovyn Studio** est un IDE agentique de nouvelle génération, hautes performances, conçu pour le développement logiciel autonome. En exploitant des modèles d'IA de pointe et des flux de travail agentiques natifs, Qovyn transforme l'IDE d'un éditeur de texte en un véritable collaborateur autonome.
+
+---
+
+## 🚀 L'Avantage Agentique
+
+Qovyn Studio est conçu pour les développeurs qui exigent une productivité maximale. Il va bien au-delà de l'autocomplétion pour offrir une expérience de développement complète.
+
+* **🔄 Boucles d'Agent Autonomes** : Les agents peuvent planifier, exécuter et s'auto-critiquer sur des modifications complexes multi-fichiers.
+* **🐙 Intégration GitHub Profonde** : Construire, commiter, lister les issues et ouvrir des Pull Requests directement depuis l'interface agent.
+* **⚡ Modèles Frontière Gratuits** : Propulsé par **Puter.js**, donnant accès à des modèles haut de gamme sans abonnement.
+* **🧠 Mémoire Hiérarchique** : Rétention des tâches à long terme et raisonnement contextuel.
+
+---
+
+## 💰 Pourquoi Qovyn bat les abonnements à \$20/mois
+
+Le marché est saturé d'outils de codage IA à \$20/mois. Qovyn Studio vous donne plus pour moins cher — ou gratuitement.
+
+| Fonctionnalité | Qovyn Studio | Claude Code / Codex |
+|---|---|---|
+| **Tarification** | Gratuit disponible — \$0 pour commencer | Minimum \$20/mois |
+| **Modèles** | Votre propre clé API ou modèles Puter.js gratuits | Verrouillé sur leur modèle |
+| **Repli fournisseur** | 18 fournisseurs en chaîne de repli automatique | Un seul fournisseur, point de défaillance unique |
+| **Boucle agent** | Cycle autonome planifier → exécuter → vérifier avec auto-correction | Chat basique avec lecture/écriture de fichiers |
+| **Instantanés fichiers** | Instantanés automatiques avant chaque mutation — restaurez toute modification | Pas de restauration intégrée |
+| **Complétion intégrée** | Contextuelle, sans abonnement via la même chaîne de fournisseurs | Incluse, mais seulement avec abonnement |
+| **Vue Diff** | Diff Monaco côte à côte pour chaque changement agent | Diffs textuels uniquement |
+| **Bouclier de Confidentialité** | Exclusion auto des fichiers sensibles (.env, .pem) du contexte agent | Configuration manuelle requise |
+| **Intégration Terminal** | Terminal PowerShell complet avec exécution de commandes | Accès terminal limité |
+
+**En résumé** : Si vous avez déjà une clé API (OpenAI, Anthropic, Google, Groq, etc.), Qovyn ne vous coûte rien. Vous utilisez votre propre quota au prix coûtant — sans majoration mensuelle. Et si vous voulez commencer gratuitement, Puter.js vous donne accès aux modèles de pointe immédiatement.
+
+---
+
+## 🔧 Fonctionnalités essentielles
+
+### Une vraie autonomie, pas seulement du chat
+
+La boucle d'agent de Qovyn est structurellement différente d'un chatbot avec accès aux fichiers. Chaque tour suit un cycle discipliné :
+
+1. **Réfléchir** — l'agent analyse la tâche et le contexte
+2. **Agir** — une mutation par tour (écriture, édition, suppression, création) plus autant de lectures que nécessaire
+3. **Vérifier** — le système liste automatiquement le répertoire parent après chaque mutation pour que l'agent confirme le résultat
+4. **Répéter** — l'agent continue jusqu'à ce que tous les éléments du plan soient terminés ou qu'il ait besoin de clarification
+
+Cela signifie que l'agent ne crée jamais trois fichiers à la fois en supposant la réussite. Il confirme chaque étape avant de continuer — comme un développeur senior qui révise son propre travail.
+
+### Chaîne de repli de 18 fournisseurs
+
+Qovyn ne vous enferme pas dans un seul modèle. Configurez plusieurs fournisseurs et le système cascade automatiquement en cas d'échec :
+
+```
+OpenAI → Anthropic → Google Gemini → Groq → OpenRouter → GitHub Models
+→ Azure OpenAI → Together AI → DeepInfra → Cerebras → NVIDIA NIM
+→ Fireworks AI → Mistral AI → OpenCode AI → Kimi → Z.ai
+→ Wafer AI → Puter.js (gratuit)
+```
+
+Votre flux de travail ne s'arrête jamais parce qu'une API est indisponible.
+
+### Instantanés de fichiers & restauration
+
+Avant chaque mutation de fichier, Qovyn prend un instantané des fichiers concernés. Vous pouvez revenir à n'importe quel point dans la chronologie de l'agent — annulant les modifications fichier par fichier ou en bloc. Fini le "l'IA a cassé mon code et je ne peux pas le récupérer."
+
+### Aperçu Diff pour chaque changement
+
+Chaque écriture, édition ou remplacement effectué par l'agent peut être ouvert dans l'éditeur de diff côte à côte de Monaco. Vert pour les nouvelles lignes, rouge pour les supprimées — clair, visuel, immédiat.
+
+### Terminal comme outil de première classe
+
+L'agent exécute de vraies commandes PowerShell, pas des simulations. Il peut exécuter des builds, lancer des tests, installer des paquets, vérifier l'existence de fichiers et lire les sorties de commandes — tout dans la même boucle qui écrit votre code.
+
+---
+
+## 📥 Pour Commencer
+
+Qovyn Studio est actuellement en **Accès Anticipé**.
+
+1. **Téléchargement** : Obtenez la dernière version pour votre OS sur le [Site Officiel](https://qovyn-studio.vercel.app).
+2. **Installation** :
+   * **Windows** : Exécutez le `.exe`. Note : En tant que projet indie, vous pouvez voir un avertissement "SmartScreen". Cliquez sur *Plus d'infos* -> *Exécuter quand même*.
+   * **macOS et Linux** : À venir.
+3. **Connexion** : Liez votre compte GitHub pour activer les flux de travail PR autonomes.
+
+### Premier lancement
+
+Ouvrez l'application, passez en **Mode Agent**, et essayez :
+
+```
+Créez un composant navbar responsive avec HTML, CSS et un bouton de mode sombre
+```
+
+Regardez l'agent planifier les fichiers, les créer un par un, vérifier chaque étape et faire son rapport. Aucun abonnement à \$20 requis.
+
+---
+
+## 💬 Communauté & Commentaires
+
+Ce dépôt est le hub dédié à la communauté Qovyn Studio. Bien que le moteur principal reste propriétaire, nous nous engageons à construire Qovyn ouvertement avec nos utilisateurs.
+
+* **🐛 Rapports de Bugs** : Utilisez l'onglet [Issues](https://github.com/braeljr/qovyn-studio-feedback/issues) pour signaler des bugs reproductibles.
+* **💡 Demandes de Fonctionnalités** : Vous avez une idée pour un nouvel outil agent ? Ouvrez une [Discussion](https://github.com/braeljr/qovyn-studio-feedback/discussions).
+* **📖 Documentation** : Consultez notre [Docs](https://qovyn-studio.vercel.app/docs) pour la configuration avancée.
+
+---
+
+## 🛡️ Confidentialité & Sécurité
+
+Qovyn Studio est conçu avec une architecture **Confidentialité d'Abord** :
+* **Bouclier de Confidentialité** : Les fichiers sensibles (`.env`, `.pem`, etc.) sont automatiquement ignorés par l'agent IA.
+* **Traitement Local** : L'indexation des fichiers et la synthèse du contexte se font entièrement sur votre machine locale.
+* **Votre clé, votre coût** : Lorsque vous utilisez vos propres clés API, Qovyn ne facture rien — vous payez uniquement ce que votre fournisseur vous facture.
+
+---
+
+## 🗺️ Feuille de Route
+
+* Versions natives macOS et Linux
+* Contrôle de version agent avec chronologie visuelle des branches
+* API de création d'outils personnalisés
+* Mode collaboration d'équipe avec contextes d'agent partagés
+* Mode extension VS Code
+
+---
+
+*Construit avec ❤️ par l'Équipe Qovyn Studio.*
